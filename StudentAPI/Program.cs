@@ -5,17 +5,24 @@ using StudentAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.Configure<StudentsDBSettings>(builder.Configuration.GetSection("StudentsDBSettings"));
-builder.Services.AddSingleton<StudentsService>();
+var config = builder.Configuration.GetSection("StudentsDBSettings");
+
+builder.Services.AddSingleton(x => new MongoClient(config["ConnectionString"]));
+builder.Services.AddTransient<IMongoDatabase>(x =>
+    x.GetRequiredService<MongoClient>().GetDatabase(config["DatabaseName"]));
+
+builder.Services.AddTransient<StudentsService>();
+builder.Services.AddTransient<DatabaseService>();
+builder.Services.AddTransient<LecturersService>();
+builder.Services.AddTransient<ExamService>();
+builder.Services.AddTransient<StudGroupService>();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

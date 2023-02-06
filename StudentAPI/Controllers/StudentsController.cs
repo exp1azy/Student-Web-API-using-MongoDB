@@ -15,23 +15,10 @@ namespace StudentAPI.Controllers
             _studentsService = studentsService;
         }
 
-        [HttpGet("GetAll")]
-        public async Task<IActionResult> GetAll()
-        {
-            var allStudents = await _studentsService.GetAllAsync();
-
-            if (allStudents.Any())
-            {
-                return Ok(allStudents);
-            }
-
-            return NotFound();
-        }
-
-        [HttpGet("Get/{id}")]
+        [HttpGet("get/{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var existingStudent = await _studentsService.GetByIdAsync(id);
+            var existingStudent = await _studentsService.GetStudentByIdAsync(id);
 
             if (existingStudent is null)
             {
@@ -41,10 +28,10 @@ namespace StudentAPI.Controllers
             return Ok(existingStudent);
         }
 
-        [HttpGet("GetString/{id}")]
+        [HttpGet("get-string/{id}")]
         public async Task<IActionResult> GetById(string id)
         {
-            var existingStudent = await _studentsService.GetByStringIdAsync(id);
+            var existingStudent = await _studentsService.GetStudentByStringIdAsync(id);
 
             if (existingStudent is null)
             {
@@ -54,18 +41,18 @@ namespace StudentAPI.Controllers
             return Ok(existingStudent);
         }
 
-        [HttpPost("Add")]
-        public async Task<IActionResult> Add(Students student)
+        [HttpPost("add")]
+        public async Task<IActionResult> AddStudent(Students student)
         {
             await _studentsService.AddStudentAsync(student);
 
             return CreatedAtAction(nameof(GetById), new { id = student.Id }, student);
         }
 
-        [HttpPut("Update/{id}")]
+        [HttpPut("update/{id}")]
         public async Task<IActionResult> Update(int id, Students student)
         {
-            var existingStudent = await _studentsService.GetByIdAsync(id);
+            var existingStudent = await _studentsService.GetStudentByIdAsync(id);
 
             if (existingStudent is null)
             {
@@ -78,10 +65,10 @@ namespace StudentAPI.Controllers
             return NoContent();
         }
 
-        [HttpDelete("Delete/{id}")]
+        [HttpDelete("delete/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var existingStudent = await _studentsService.GetByIdAsync(id);
+            var existingStudent = await _studentsService.GetStudentByIdAsync(id);
 
             if (existingStudent is null)
             {

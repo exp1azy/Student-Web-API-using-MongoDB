@@ -7,43 +7,41 @@ namespace StudentAPI.Services
 {
     public class StudentsService
     {
-        private readonly IMongoCollection<Students> _students;
+        private readonly IMongoDatabase _database;      
 
-        public StudentsService(IOptions<StudentsDBSettings> dbSettings) 
-        { 
-            var mongoClient = new MongoClient(dbSettings.Value.ConnectionString);
-            var mongoDb = mongoClient.GetDatabase(dbSettings.Value.DatabaseName);
-            _students = mongoDb.GetCollection<Students>(dbSettings.Value.StudentsCollection);
+        public StudentsService(IMongoDatabase database) 
+        {
+            _database = database;
         }
 
-        public async Task<List<Students>> GetAllAsync()
+        public async Task<Students> GetStudentByIdAsync(int id)
         {
-            return await _students.Find(i => true).ToListAsync();
+            var studentCollection = MongoDb.GetCollection<Students>("Students", _database);
+            return await studentCollection.Find(i => i.Id == id).FirstOrDefaultAsync();
         }
 
-        public async Task<Students> GetByIdAsync(int id)
+        public async Task<Students> GetStudentByStringIdAsync(string id)
         {
-            return await _students.Find(i => i.Id == id).FirstOrDefaultAsync();
-        }
-
-        public async Task<Students> GetByStringIdAsync(string id)
-        {
-            return await _students.Find(i => i._id == id).FirstOrDefaultAsync();
+            var studentCollection = MongoDb.GetCollection<Students>("Students", _database);
+            return await studentCollection.Find(i => i._id == id).FirstOrDefaultAsync();
         }
 
         public async Task AddStudentAsync(Students student)
         {
-            await _students.InsertOneAsync(student);
+            var collection = MongoDb.GetCollection<Students>("Students", _database);
+            await collection.InsertOneAsync(student);
         }
 
         public async Task UpdateStudentAsync(Students student)
         {
-            await _students.ReplaceOneAsync(i => i.Id == student.Id, student);
+            var studentCollection = MongoDb.GetCollection<Students>("Students", _database);
+            await studentCollection.ReplaceOneAsync(i => i.Id == student.Id, student);
         }
 
         public async Task DeleteStudentAsync(int id)
         {
-            await _students.DeleteOneAsync(i => i.Id == id);
+            var studentCollection = MongoDb.GetCollection<Students>("Students", _database);
+            await studentCollection.DeleteOneAsync(i => i.Id == id);
         }
     }
 }

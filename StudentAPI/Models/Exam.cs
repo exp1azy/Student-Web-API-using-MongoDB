@@ -19,7 +19,7 @@ namespace StudentAPI.Models
         public int Mark { get; set; }
 
         [BsonElement("Date")]
-        public DateOnly Date { get; set; }
+        public string Date { get; set; }
 
         [BsonElement("LectId")]
         public int LectId { get; set; }
