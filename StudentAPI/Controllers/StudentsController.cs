@@ -81,7 +81,7 @@ namespace StudentAPI.Controllers
         }
 
         [HttpDelete("delete/{id}")]
-        public async Task<IActionResult> DeleteExam(int id)
+        public async Task<IActionResult> DeleteStudent(int id)
         {
             var existingStudent = await _studentsService.GetStudentByIdAsync(id);
 

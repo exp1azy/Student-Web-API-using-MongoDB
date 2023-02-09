@@ -6,7 +6,7 @@ namespace StudentAPI.Services
     public interface ILecturersRepository
     {
         public Task<Lecturers> GetLecturerByIdAsync(int id);
-        public Task<Lecturers> GetLecturerByStringIdAsync(string id);
+        public Task<Lecturers> GetLecturerByIdAsync(string id);
         public Task AddLecturerAsync(Lecturers lecturer);
         public Task UpdateLecturerAsync(Lecturers lecturer);
         public Task DeleteLecturerAsync(int id);
@@ -27,7 +27,7 @@ namespace StudentAPI.Services
             return await lecturersCollection.Find(i => i.Id == id).FirstOrDefaultAsync();
         }
 
-        public async Task<Lecturers> GetLecturerByStringIdAsync(string id)
+        public async Task<Lecturers> GetLecturerByIdAsync(string id)
         {
             var lecturersCollection = MongoDb.GetCollection<Lecturers>("Lecturers", _database);
             return await lecturersCollection.Find(i => i._id == id).FirstOrDefaultAsync();
