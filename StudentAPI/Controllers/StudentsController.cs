@@ -16,16 +16,22 @@ namespace StudentAPI.Controllers
         }
 
         [HttpGet("mark-above-specified/{mark}")]
-        public async Task<IActionResult> GetStudentsWithMarkAboveSpecified(int mark) =>
-            Ok(await _studentsService.GetStudentsWithMarkAboveSpecifiedAsync(mark));
-        
+        public async Task<IActionResult> GetStudentsWithMarkAboveSpecified(int mark)
+        {
+            return Ok(await _studentsService.GetStudentsWithMarkAboveSpecifiedAsync(mark));
+        }
+      
         [HttpGet("passed-by-specified-lecturer/{lecturerName}")]
-        public async Task<IActionResult> GetStudentsWhosePassedBySpecifiedLecturer(string lecturerName) =>    
-            Ok(await _studentsService.GetStudentsWhosePassedBySpecifiedLecturerAsync(lecturerName));
+        public async Task<IActionResult> GetStudentsWhosePassedBySpecifiedLecturer(string lecturerName)
+        {
+            return Ok(await _studentsService.GetStudentsWhosePassedBySpecifiedLecturerAsync(lecturerName));
+        }
 
         [HttpGet("specified-group/{groupNum}")]
-        public async Task<IActionResult> GetStudentsFromSpecifiedGroup(string groupNum) =>
-            Ok(await _studentsService.GetStudentsFromSpecifiedGroupAsync(groupNum));
+        public async Task<IActionResult> GetStudentsFromSpecifiedGroup(string groupNum)
+        {
+            return Ok(await _studentsService.GetStudentsFromSpecifiedGroupAsync(groupNum));
+        }
 
         [HttpGet("get/{id}")]
         public async Task<IActionResult> GetStudentById(int id)
