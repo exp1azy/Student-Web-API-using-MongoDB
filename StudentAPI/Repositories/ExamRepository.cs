@@ -3,11 +3,20 @@ using StudentAPI.Models;
 
 namespace StudentAPI.Services
 {
-    public class ExamService
+    public interface IExamRepository
+    {
+        public Task<Exam> GetExamByStringIdAsync(string id);
+        public Task<List<Exam>> GetExamsByDisciplineNameAsync(string disciplineName);
+        public Task AddExamAsync(Exam exam);
+        public Task UpdateExamAsync(Exam exam);
+        public Task DeleteExamAsync(string id);
+    }
+
+    public class ExamRepository : IExamRepository
     {
         private readonly IMongoDatabase _database;
 
-        public ExamService(IMongoDatabase database) 
+        public ExamRepository(IMongoDatabase database) 
         { 
             _database = database;
         }

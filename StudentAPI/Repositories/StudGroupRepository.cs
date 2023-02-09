@@ -3,11 +3,20 @@ using StudentAPI.Models;
 
 namespace StudentAPI.Services
 {
-    public class StudGroupService
+    public interface IStudGroupRepository
+    {
+        public Task<StudGroup> GetGroupByStringIdAsync(string id);
+        public Task<List<StudGroup>> GetGroupsByCourseOrDirectionAsync(int course, string? direction);
+        public Task AddStudGroupAsync(StudGroup group);
+        public Task UpdateStudGroupAsync(StudGroup group);
+        public Task DeleteStudGroupAsync(string id);
+    }
+
+    public class StudGroupRepository : IStudGroupRepository
     {
         private readonly IMongoDatabase _database;
 
-        public StudGroupService(IMongoDatabase database) 
+        public StudGroupRepository(IMongoDatabase database) 
         {
             _database = database;
         }

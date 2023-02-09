@@ -3,11 +3,20 @@ using StudentAPI.Models;
 
 namespace StudentAPI.Services
 {
-    public class LecturersService
+    public interface ILecturersRepository
+    {
+        public Task<Lecturers> GetLecturerByIdAsync(int id);
+        public Task<Lecturers> GetLecturerByStringIdAsync(string id);
+        public Task AddLecturerAsync(Lecturers lecturer);
+        public Task UpdateLecturerAsync(Lecturers lecturer);
+        public Task DeleteLecturerAsync(int id);
+    }
+
+    public class LecturersRepository : ILecturersRepository
     {
         private readonly IMongoDatabase _database;
 
-        public LecturersService(IMongoDatabase database)
+        public LecturersRepository(IMongoDatabase database)
         {
             _database = database;
         }

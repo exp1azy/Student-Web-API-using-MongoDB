@@ -2,11 +2,16 @@
 
 namespace StudentAPI.Services
 {
-    public class DatabaseService
+    public interface IGeneralRepository
+    {
+        public Task<List<T>> GetAllAsync<T>(string collectionName);
+    }
+
+    public class GeneralRepository : IGeneralRepository
     {
         private readonly IMongoDatabase _database;
 
-        public DatabaseService(IMongoDatabase database)
+        public GeneralRepository(IMongoDatabase database)
         {
             _database = database;
         }

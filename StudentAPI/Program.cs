@@ -11,11 +11,13 @@ builder.Services.AddSingleton(x => new MongoClient(config["ConnectionString"]));
 builder.Services.AddTransient<IMongoDatabase>(x =>
     x.GetRequiredService<MongoClient>().GetDatabase(config["DatabaseName"]));
 
+builder.Services.AddTransient<StudentsRepository>();
+builder.Services.AddTransient<GeneralRepository>();
+builder.Services.AddTransient<LecturersRepository>();
+builder.Services.AddTransient<ExamRepository>();
+builder.Services.AddTransient<StudGroupRepository>();
+
 builder.Services.AddTransient<StudentsService>();
-builder.Services.AddTransient<DatabaseService>();
-builder.Services.AddTransient<LecturersService>();
-builder.Services.AddTransient<ExamService>();
-builder.Services.AddTransient<StudGroupService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
