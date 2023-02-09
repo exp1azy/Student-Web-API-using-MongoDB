@@ -1,0 +1,421 @@
+[{
+  "_id": {
+    "$oid": "63dfc044bae41917cd7c9115"
+  },
+  "Id": 1,
+  "Name": "Панин Антон",
+  "Birthday": {
+    "$date": {
+      "$numberLong": "1033948800000"
+    }
+  },
+  "Gender": "М",
+  "GroupNum": "ИДБ-20-08",
+  "Grant": 3000
+},{
+  "_id": {
+    "$oid": "63dfc044bae41917cd7c9116"
+  },
+  "Id": 2,
+  "Name": "Чистоклетова Юлия",
+  "Birthday": {
+    "$date": {
+      "$numberLong": "1036540800000"
+    }
+  },
+  "Gender": "Ж",
+  "GroupNum": "ИДБ-20-08",
+  "Grant": 2800
+},{
+  "_id": {
+    "$oid": "63dfc044bae41917cd7c9117"
+  },
+  "Id": 3,
+  "Name": "Клюев Илья",
+  "Birthday": "2001-06-10",
+  "Gender": "М",
+  "GroupNum": "ИДБ-20-07",
+  "Grant": 2500
+},{
+  "_id": {
+    "$oid": "63dfc044bae41917cd7c9118"
+  },
+  "Id": 4,
+  "Name": "Пиянина Ксения",
+  "Birthday": {
+    "$date": {
+      "$numberLong": "1027209600000"
+    }
+  },
+  "Gender": "Ж",
+  "GroupNum": "ИДБ-20-06",
+  "Grant": 2600
+},{
+  "_id": {
+    "$oid": "63dfc044bae41917cd7c9119"
+  },
+  "Id": 5,
+  "Name": "Симкин Данил",
+  "Birthday": {
+    "$date": {
+      "$numberLong": "1027555200000"
+    }
+  },
+  "Gender": "М",
+  "GroupNum": "ИДБ-20-06",
+  "Grant": 0
+},{
+  "_id": {
+    "$oid": "63dfc044bae41917cd7c911a"
+  },
+  "Id": 6,
+  "Name": "Полковников Артемий",
+  "Birthday": {
+    "$date": {
+      "$numberLong": "1023753600000"
+    }
+  },
+  "Gender": "М",
+  "GroupNum": "ИДБ-20-05",
+  "Grant": 2500
+},{
+  "_id": {
+    "$oid": "63dfc044bae41917cd7c911b"
+  },
+  "Id": 7,
+  "Name": "Малюгин Владислав",
+  "Birthday": {
+    "$date": {
+      "$numberLong": "1034380800000"
+    }
+  },
+  "Gender": "М",
+  "GroupNum": "ИДБ-20-05",
+  "Grant": 0
+},{
+  "_id": {
+    "$oid": "63dfc044bae41917cd7c911c"
+  },
+  "Id": 8,
+  "Name": "Морозова Стефания",
+  "Birthday": {
+    "$date": {
+      "$numberLong": "1077235200000"
+    }
+  },
+  "Gender": "Ж",
+  "GroupNum": "ИДБ-20-07",
+  "Grant": 3000
+},{
+  "_id": {
+    "$oid": "63dfc044bae41917cd7c911d"
+  },
+  "Id": 9,
+  "Name": "Богданов Илья",
+  "Birthday": {
+    "$date": {
+      "$numberLong": "1020902400000"
+    }
+  },
+  "Gender": "М",
+  "GroupNum": "ИДБ-20-06",
+  "Grant": 2900
+},{
+  "_id": {
+    "$oid": "63dfc044bae41917cd7c911e"
+  },
+  "Id": 10,
+  "Name": "Гурков Вадим",
+  "Birthday": {
+    "$date": {
+      "$numberLong": "1037491200000"
+    }
+  },
+  "Gender": "М",
+  "GroupNum": "ИДБ-20-08",
+  "Grant": 2700
+},{
+  "_id": {
+    "$oid": "63e03f05742c3c99e35e5b5b"
+  },
+  "Id": 11,
+  "Name": "Айрапетов Максим",
+  "Birthday": {
+    "$date": {
+      "$numberLong": "1038009600000"
+    }
+  },
+  "Gender": "М",
+  "GroupNum": "ИДБ-20-08",
+  "Grant": 2500
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f677"
+  },
+  "Id": 12,
+  "Name": "Евдокимов Александр",
+  "Birthday": "2001-10-13",
+  "Gender": "М",
+  "GroupNum": "АДБ-19-01",
+  "Grant": 2900
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f678"
+  },
+  "Id": 13,
+  "Name": "Гоголева Валерия",
+  "Birthday": "2001-02-16",
+  "Gender": "Ж",
+  "GroupNum": "АДБ-19-01",
+  "Grant": 3200
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f679"
+  },
+  "Id": 14,
+  "Name": "Симонов Николай",
+  "Birthday": "2001-11-01",
+  "Gender": "М",
+  "GroupNum": "АДБ-19-01",
+  "Grant": 2500
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f67a"
+  },
+  "Id": 15,
+  "Name": "Романов Константин",
+  "Birthday": "2001-08-22",
+  "Gender": "М",
+  "GroupNum": "АДБ-19-01",
+  "Grant": 2700
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f67b"
+  },
+  "Id": 16,
+  "Name": "Шишкина Евгения",
+  "Birthday": "2001-04-23",
+  "Gender": "Ж",
+  "GroupNum": "АДБ-19-02",
+  "Grant": 0
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f67c"
+  },
+  "Id": 17,
+  "Name": "Петров Георгий",
+  "Birthday": "2001-01-02",
+  "Gender": "М",
+  "GroupNum": "АДБ-19-02",
+  "Grant": 3000
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f67d"
+  },
+  "Id": 18,
+  "Name": "Колюбанов Илья",
+  "Birthday": "2001-12-02",
+  "Gender": "М",
+  "GroupNum": "АДБ-19-02",
+  "Grant": 0
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f67e"
+  },
+  "Id": 19,
+  "Name": "Петров Георгий",
+  "Birthday": "2001-01-02",
+  "Gender": "М",
+  "GroupNum": "АДБ-19-02",
+  "Grant": 3000
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f67f"
+  },
+  "Id": 20,
+  "Name": "Тимошенко Юлия",
+  "Birthday": "2001-10-07",
+  "Gender": "Ж",
+  "GroupNum": "АДБ-19-03",
+  "Grant": 3500
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f680"
+  },
+  "Id": 21,
+  "Name": "Хохлов Семен",
+  "Birthday": "2001-10-19",
+  "Gender": "М",
+  "GroupNum": "АДБ-19-03",
+  "Grant": 0
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f681"
+  },
+  "Id": 22,
+  "Name": "Колчин Валентин",
+  "Birthday": "2001-07-11",
+  "Gender": "М",
+  "GroupNum": "АДБ-19-03",
+  "Grant": 2600
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f682"
+  },
+  "Id": 23,
+  "Name": "Суханова Алевтина",
+  "Birthday": "2003-05-05",
+  "Gender": "Ж",
+  "GroupNum": "ОДБ-21-01",
+  "Grant": 0
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f683"
+  },
+  "Id": 24,
+  "Name": "Максимов Олег",
+  "Birthday": "2003-05-15",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-01",
+  "Grant": 2800
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f684"
+  },
+  "Id": 25,
+  "Name": "Агрусева Ольга",
+  "Birthday": "2003-01-26",
+  "Gender": "Ж",
+  "GroupNum": "ОДБ-21-01",
+  "Grant": 2500
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f685"
+  },
+  "Id": 26,
+  "Name": "Максимов Олег",
+  "Birthday": "2003-05-15",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-01",
+  "Grant": 2800
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f686"
+  },
+  "Id": 27,
+  "Name": "Вехтев Михаил",
+  "Birthday": "2003-05-14",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-02",
+  "Grant": 3100
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f687"
+  },
+  "Id": 28,
+  "Name": "Смуров Роман",
+  "Birthday": "2003-12-29",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-02",
+  "Grant": 0
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f688"
+  },
+  "Id": 29,
+  "Name": "Щербакова Татьяна",
+  "Birthday": "2002-09-25",
+  "Gender": "Ж",
+  "GroupNum": "ОДБ-21-02",
+  "Grant": 3400
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f689"
+  },
+  "Id": 30,
+  "Name": "Конюхов Антон",
+  "Birthday": "2003-08-20",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-02",
+  "Grant": 3000
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f68a"
+  },
+  "Id": 31,
+  "Name": "Елисеев Сергей",
+  "Birthday": "2003-03-03",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-03",
+  "Grant": 2900
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f68b"
+  },
+  "Id": 32,
+  "Name": "Арканова Юлия",
+  "Birthday": "2003-06-09",
+  "Gender": "Ж",
+  "GroupNum": "ОДБ-21-03",
+  "Grant": 0
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f68c"
+  },
+  "Id": 33,
+  "Name": "Глушко Екатерина",
+  "Birthday": "2003-08-01",
+  "Gender": "Ж",
+  "GroupNum": "ОДБ-21-03",
+  "Grant": 3500
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f68d"
+  },
+  "Id": 34,
+  "Name": "Киценюк Григорий",
+  "Birthday": "2003-08-11",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-03",
+  "Grant": 0
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f68e"
+  },
+  "Id": 35,
+  "Name": "Валеев Кирилл",
+  "Birthday": "2003-04-12",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-04",
+  "Grant": 3000
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f68f"
+  },
+  "Id": 36,
+  "Name": "Дмитриев Пётр",
+  "Birthday": "2002-05-07",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-04",
+  "Grant": 2500
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f690"
+  },
+  "Id": 37,
+  "Name": "Пушкина Алла",
+  "Birthday": "2003-11-18",
+  "Gender": "Ж",
+  "GroupNum": "ОДБ-21-04",
+  "Grant": 2900
+},{
+  "_id": {
+    "$oid": "63e579c127a3f44dc8d9f691"
+  },
+  "Id": 38,
+  "Name": "Коваленко Игорь",
+  "Birthday": "2003-07-25",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-04",
+  "Grant": 3100
+}]

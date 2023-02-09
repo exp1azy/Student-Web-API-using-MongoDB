@@ -36,7 +36,7 @@ namespace StudentAPI.Controllers
         [HttpGet("get-string/{id}")]
         public async Task<IActionResult> GetExamById(string id)
         {
-            var existingExam = await _examService.GetExamByStringIdAsync(id);
+            var existingExam = await _examService.GetExamByIdAsync(id);
 
             if (existingExam is null)
             {
@@ -69,7 +69,7 @@ namespace StudentAPI.Controllers
         [HttpPut("update/{id}")]
         public async Task<IActionResult> UpdateExam(string id, Exam exam)
         {
-            var existingExam = await _examService.GetExamByStringIdAsync(id);
+            var existingExam = await _examService.GetExamByIdAsync(id);
 
             if (existingExam is null)
                 return BadRequest();
@@ -83,7 +83,7 @@ namespace StudentAPI.Controllers
         [HttpDelete("delete/{id}")]
         public async Task<IActionResult> DeleteExam(string id)
         {
-            var existingExam = await _examService.GetExamByStringIdAsync(id);
+            var existingExam = await _examService.GetExamByIdAsync(id);
 
             if (existingExam is null)
                 return BadRequest();

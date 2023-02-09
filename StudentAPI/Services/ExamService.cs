@@ -32,7 +32,7 @@ namespace StudentAPI.Services
             return examCollection.Where(i => i.Mark >= 35).ToList();
         }
 
-        public async Task<Exam> GetExamByStringIdAsync(string id)
+        public async Task<Exam> GetExamByIdAsync(string id)
         {
             return await _examRepository.GetExamByStringIdAsync(id);
         }

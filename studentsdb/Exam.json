@@ -1,0 +1,488 @@
+[{
+  "_id": {
+    "$oid": "63dfc344bae41917cd7c9127"
+  },
+  "StudId": 1,
+  "Subject": "УД",
+  "Mark": 35,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673568000000"
+    }
+  },
+  "LectId": 1
+},{
+  "_id": {
+    "$oid": "63dfc344bae41917cd7c9128"
+  },
+  "StudId": 1,
+  "Subject": "ТМО",
+  "Mark": 37,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673222400000"
+    }
+  },
+  "LectId": 2
+},{
+  "_id": {
+    "$oid": "63dfc344bae41917cd7c9129"
+  },
+  "StudId": 1,
+  "Subject": "ИИСУП",
+  "Mark": 38,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673827200000"
+    }
+  },
+  "LectId": 3
+},{
+  "_id": {
+    "$oid": "63dfc344bae41917cd7c912a"
+  },
+  "StudId": 1,
+  "Subject": "ИТС",
+  "Mark": 30,
+  "Date": {
+    "$date": {
+      "$numberLong": "1674604800000"
+    }
+  },
+  "LectId": 4
+},{
+  "_id": {
+    "$oid": "63dfc344bae41917cd7c912b"
+  },
+  "StudId": 1,
+  "Subject": "ВП",
+  "Mark": 45,
+  "Date": {
+    "$date": {
+      "$numberLong": "1674086400000"
+    }
+  },
+  "LectId": 5
+},{
+  "_id": {
+    "$oid": "63dfc344bae41917cd7c912c"
+  },
+  "StudId": 2,
+  "Subject": "УД",
+  "Mark": 35,
+  "Date": {
+    "$date": {
+      "$numberLong": "1676246400000"
+    }
+  },
+  "LectId": 1
+},{
+  "_id": {
+    "$oid": "63dfc344bae41917cd7c912d"
+  },
+  "StudId": 2,
+  "Subject": "ТМО",
+  "Mark": 36,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673222400000"
+    }
+  },
+  "LectId": 2
+},{
+  "_id": {
+    "$oid": "63dfc344bae41917cd7c912e"
+  },
+  "StudId": 2,
+  "Subject": "ИИСУП",
+  "Mark": 43,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673827200000"
+    }
+  },
+  "LectId": 3
+},{
+  "_id": {
+    "$oid": "63dfc344bae41917cd7c912f"
+  },
+  "StudId": 2,
+  "Subject": "ИТС",
+  "Mark": 25,
+  "Date": {
+    "$date": {
+      "$numberLong": "1674604800000"
+    }
+  },
+  "LectId": 4
+},{
+  "_id": {
+    "$oid": "63dfc344bae41917cd7c9130"
+  },
+  "StudId": 2,
+  "Subject": "ВП",
+  "Mark": 40,
+  "Date": {
+    "$date": {
+      "$numberLong": "1674086400000"
+    }
+  },
+  "LectId": 5
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9135"
+  },
+  "StudId": 3,
+  "Subject": "УД",
+  "Mark": 30,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673568000000"
+    }
+  },
+  "LectId": 1
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9136"
+  },
+  "StudId": 3,
+  "Subject": "ТМО",
+  "Mark": 29,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673222400000"
+    }
+  },
+  "LectId": 2
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9137"
+  },
+  "StudId": 3,
+  "Subject": "ИИСУП",
+  "Mark": 30,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673827200000"
+    }
+  },
+  "LectId": 3
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9138"
+  },
+  "StudId": 3,
+  "Subject": "ИТС",
+  "Mark": 30,
+  "Date": {
+    "$date": {
+      "$numberLong": "1674604800000"
+    }
+  },
+  "LectId": 4
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9139"
+  },
+  "StudId": 3,
+  "Subject": "ВП",
+  "Mark": 45,
+  "Date": {
+    "$date": {
+      "$numberLong": "1674086400000"
+    }
+  },
+  "LectId": 5
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c913a"
+  },
+  "StudId": 4,
+  "Subject": "УД",
+  "Mark": 25,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673568000000"
+    }
+  },
+  "LectId": 1
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c913b"
+  },
+  "StudId": 4,
+  "Subject": "ТМО",
+  "Mark": 30,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673222400000"
+    }
+  },
+  "LectId": 2
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c913c"
+  },
+  "StudId": 4,
+  "Subject": "ИИСУП",
+  "Mark": 35,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673827200000"
+    }
+  },
+  "LectId": 3
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c913d"
+  },
+  "StudId": 4,
+  "Subject": "ИТС",
+  "Mark": 25,
+  "Date": {
+    "$date": {
+      "$numberLong": "1674604800000"
+    }
+  },
+  "LectId": 4
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c913e"
+  },
+  "StudId": 4,
+  "Subject": "ВП",
+  "Mark": 45,
+  "Date": {
+    "$date": {
+      "$numberLong": "1674086400000"
+    }
+  },
+  "LectId": 5
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c913f"
+  },
+  "StudId": 9,
+  "Subject": "УД",
+  "Mark": 25,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673568000000"
+    }
+  },
+  "LectId": 1
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9140"
+  },
+  "StudId": 9,
+  "Subject": "ТМО",
+  "Mark": 35,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673222400000"
+    }
+  },
+  "LectId": 2
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9141"
+  },
+  "StudId": 9,
+  "Subject": "ИИСУП",
+  "Mark": 35,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673827200000"
+    }
+  },
+  "LectId": 3
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9142"
+  },
+  "StudId": 9,
+  "Subject": "ИТС",
+  "Mark": 32,
+  "Date": {
+    "$date": {
+      "$numberLong": "1674604800000"
+    }
+  },
+  "LectId": 4
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9143"
+  },
+  "StudId": 9,
+  "Subject": "ВП",
+  "Mark": 50,
+  "Date": {
+    "$date": {
+      "$numberLong": "1674086400000"
+    }
+  },
+  "LectId": 5
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9144"
+  },
+  "StudId": 10,
+  "Subject": "УД",
+  "Mark": 25,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673568000000"
+    }
+  },
+  "LectId": 1
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9145"
+  },
+  "StudId": 10,
+  "Subject": "ТМО",
+  "Mark": 32,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673222400000"
+    }
+  },
+  "LectId": 2
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9146"
+  },
+  "StudId": 10,
+  "Subject": "ИИСУП",
+  "Mark": 45,
+  "Date": {
+    "$date": {
+      "$numberLong": "1673827200000"
+    }
+  },
+  "LectId": 3
+},{
+  "_id": {
+    "$oid": "63dfc845bae41917cd7c9147"
+  },
+  "StudId": 10,
+  "Subject": "ИТС",
+  "Mark": 25,
+  "Date": {
+    "$date": {
+      "$numberLong": "1674604800000"
+    }
+  },
+  "LectId": 4
+},{
+  "_id": {
+    "$oid": "63e5793027a3f44dc8d9f662"
+  },
+  "Id": 22,
+  "Name": "Колчин Валентин",
+  "Birthday": "2001-07-11",
+  "Gender": "М",
+  "GroupNum": "АДБ-19-03",
+  "Grant": 2600
+},{
+  "_id": {
+    "$oid": "63e5793027a3f44dc8d9f663"
+  },
+  "Id": 23,
+  "Name": "Суханова Алевтина",
+  "Birthday": "2003-05-05",
+  "Gender": "Ж",
+  "GroupNum": "ОДБ-21-01",
+  "Grant": 0
+},{
+  "_id": {
+    "$oid": "63e5793027a3f44dc8d9f664"
+  },
+  "Id": 24,
+  "Name": "Максимов Олег",
+  "Birthday": "2003-05-15",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-01",
+  "Grant": 2800
+},{
+  "_id": {
+    "$oid": "63e5793027a3f44dc8d9f665"
+  },
+  "Id": 25,
+  "Name": "Агрусева Ольга",
+  "Birthday": "2003-01-26",
+  "Gender": "Ж",
+  "GroupNum": "ОДБ-21-01",
+  "Grant": 2500
+},{
+  "_id": {
+    "$oid": "63e5793027a3f44dc8d9f666"
+  },
+  "Id": 26,
+  "Name": "Максимов Олег",
+  "Birthday": "2003-05-15",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-01",
+  "Grant": 2800
+},{
+  "_id": {
+    "$oid": "63e5793027a3f44dc8d9f667"
+  },
+  "Id": 27,
+  "Name": "Вехтев Михаил",
+  "Birthday": "2003-05-14",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-02",
+  "Grant": 3100
+},{
+  "_id": {
+    "$oid": "63e5793027a3f44dc8d9f668"
+  },
+  "Id": 28,
+  "Name": "Смуров Роман",
+  "Birthday": "2003-12-29",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-02",
+  "Grant": 0
+},{
+  "_id": {
+    "$oid": "63e5793027a3f44dc8d9f669"
+  },
+  "Id": 29,
+  "Name": "Щербакова Татьяна",
+  "Birthday": "2002-09-25",
+  "Gender": "Ж",
+  "GroupNum": "ОДБ-21-02",
+  "Grant": 3400
+},{
+  "_id": {
+    "$oid": "63e5793027a3f44dc8d9f66a"
+  },
+  "Id": 30,
+  "Name": "Конюхов Антон",
+  "Birthday": "2003-08-20",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-02",
+  "Grant": 3000
+},{
+  "_id": {
+    "$oid": "63e5793027a3f44dc8d9f66b"
+  },
+  "Id": 31,
+  "Name": "Елисеев Сергей",
+  "Birthday": "2003-03-03",
+  "Gender": "М",
+  "GroupNum": "ОДБ-21-03",
+  "Grant": 2900
+},{
+  "_id": {
+    "$oid": "63e5793027a3f44dc8d9f66c"
+  },
+  "Id": 32,
+  "Name": "Арканова Юлия",
+  "Birthday": "2003-06-09",
+  "Gender": "Ж",
+  "GroupNum": "ОДБ-21-03",
+  "Grant": 0
+}]

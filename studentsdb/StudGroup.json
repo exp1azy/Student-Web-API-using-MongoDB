@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "63dfc1a6bae41917cd7c9121"
+  },
+  "GroupNum": "ИДБ-20-05",
+  "Course": 3,
+  "Dep": "ИС"
+},{
+  "_id": {
+    "$oid": "63dfc1a6bae41917cd7c9122"
+  },
+  "GroupNum": "ИДБ-20-06",
+  "Course": 3,
+  "Dep": "ИС"
+},{
+  "_id": {
+    "$oid": "63dfc1a6bae41917cd7c9123"
+  },
+  "GroupNum": "ИДБ-20-07",
+  "Course": 3,
+  "Dep": "ИС"
+},{
+  "_id": {
+    "$oid": "63dfc1a6bae41917cd7c9124"
+  },
+  "GroupNum": "ИДБ-20-08",
+  "Course": 3,
+  "Dep": "ИС"
+},{
+  "_id": {
+    "$oid": "63e56bf127a3f44dc8d9f624"
+  },
+  "GroupNum": "АДБ-19-01",
+  "Course": 4,
+  "Dep": "ПМ"
+},{
+  "_id": {
+    "$oid": "63e56bf127a3f44dc8d9f625"
+  },
+  "GroupNum": "АДБ-19-02",
+  "Course": 4,
+  "Dep": "ПМ"
+},{
+  "_id": {
+    "$oid": "63e56bf127a3f44dc8d9f626"
+  },
+  "GroupNum": "АДБ-19-03",
+  "Course": 4,
+  "Dep": "ПМ"
+},{
+  "_id": {
+    "$oid": "63e56bf127a3f44dc8d9f627"
+  },
+  "GroupNum": "ОДБ-21-01",
+  "Course": 2,
+  "Dep": "ТБ"
+},{
+  "_id": {
+    "$oid": "63e56bf127a3f44dc8d9f628"
+  },
+  "GroupNum": "ОДБ-21-02",
+  "Course": 2,
+  "Dep": "ТБ"
+},{
+  "_id": {
+    "$oid": "63e56bf127a3f44dc8d9f629"
+  },
+  "GroupNum": "ОДБ-21-03",
+  "Course": 2,
+  "Dep": "ТБ"
+},{
+  "_id": {
+    "$oid": "63e56bf127a3f44dc8d9f62a"
+  },
+  "GroupNum": "ОДБ-21-04",
+  "Course": 2,
+  "Dep": "ТБ"
+}]
